@@ -24,40 +24,21 @@ public class BubbleSortRunner {
 		for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
 
 			// Compare only elements that are un-sorted
+			// Since i is compared against i+1 equal is not required
 			for (int i = 0; i < lastUnsortedIndex; i++) {
 
 				// Compare an element with next element
 				// > - for Ascending order sorting
 				// < - for Descending order sorting
 				if (intArray[i] > intArray[i + 1]) {
-					swapArrayElements(intArray, i, i + 1);
+					AlgorithmsHelper.swapArrayElements(intArray, i, i + 1);
 				}
 			}
 			
 		}
 		
-		printArray(intArray);
+		AlgorithmsHelper.printArray(intArray);
 	}
 
-	/**
-	 * @param intArray
-	 * @param x
-	 * @param y
-	 */
-	static void swapArrayElements(int[] intArray, int x, int y) {
-		int temp = intArray[x];
-		intArray[x] = intArray[y];
-		intArray[y] = temp;
-	}
-
-	/**
-	 * @param intArray
-	 */
-	static void printArray(int[] intArray) {
-		for (int element : intArray) {
-			System.out.print(element + " ");
-		}
-		System.out.println();
-	}
 
 }
