@@ -34,11 +34,7 @@ public class BubbleSortRunner {
 					AlgorithmsHelper.swapArrayElements(intArray, i, i + 1);
 				}
 			}
-			
 		}
-		
 		AlgorithmsHelper.printArray(intArray);
 	}
-
-
 }
