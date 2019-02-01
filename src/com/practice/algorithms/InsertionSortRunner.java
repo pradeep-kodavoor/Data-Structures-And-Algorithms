@@ -4,7 +4,7 @@ package com.practice.algorithms;
  * @author 734456
  *
  */
-public class InsertionSort {
+public class InsertionSortRunner {
 
 	/**
 	 * @param args
