@@ -26,4 +26,16 @@ public class AlgorithmsHelper {
 		System.out.println();
 	}
 
+
+	/**
+	 * @param stringArray
+	 */
+	public static void printArray(String[] stringArray) {
+		for (String element : stringArray) {
+			System.out.print(element + " ");
+		}
+		System.out.println();
+
+	}
+
 }
