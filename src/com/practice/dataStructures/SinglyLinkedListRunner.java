@@ -33,7 +33,7 @@ class EmployeeNode {
 
 }
 
-class EmployeeLinkedList {
+class SinglyLinkedList {
 
 	private EmployeeNode head;
 	private int size;
@@ -84,7 +84,7 @@ public class SinglyLinkedListRunner {
 
 	public static void main(String[] args) {
 
-		EmployeeLinkedList employeeList = new EmployeeLinkedList();
+		SinglyLinkedList employeeList = new SinglyLinkedList();
 
 		employeeList.addToFront(new Employee(123, "Pradeep", "Kodavoor"));
 		employeeList.addToFront(new Employee(124, "Avinash", "Sinha"));
