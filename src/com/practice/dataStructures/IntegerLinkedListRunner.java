@@ -38,8 +38,6 @@ class IntegerLinkedList {
 	private IntegerNode head;
 
 	//Four cases
-	
-
 	public void addToFront(Integer value) {
 		System.out.println("Adding number: " + value);
 		IntegerNode newNode = new IntegerNode(value);
