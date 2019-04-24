@@ -58,7 +58,7 @@ class NewArrayQueue {
 
 	@Override
 	public String toString() {
-		return "ArrayQueue [queue=" + Arrays.toString(queue) + ", front=" + front + ", back=" + back + "]";
+		return "NewArrayQueue [queue=" + Arrays.toString(queue) + ", front=" + front + ", back=" + back + "]";
 	}
 }
 
